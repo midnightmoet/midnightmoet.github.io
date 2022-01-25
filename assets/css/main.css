@@ -1307,9 +1307,9 @@ input, select, textarea {
 
 	body {
 		background: linear-gradient( rgba(218,112,214,1) 0%, rgba(50,205,50,1) 100%);
-		background-repeat: repeat, no-repeat;
+		/* background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
-		background-attachment: fixed;
+		background-attachment: fixed; */
 		overflow-y: scroll;
 	}
 
@@ -1325,11 +1325,11 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		/* font-family: 'Source Sans Pro', sans-serif; */
 		font-weight: 300;
-		color: #777777;
+		color: black;
 		font-size: 20pt;
-		line-height: 1.75em;
+		/* line-height: 1.75em; */
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1476,8 +1476,9 @@ input, select, textarea {
 	form select,
 	form textarea {
 		-webkit-appearance: none;
-		border: 0;
-		background: #f4f4f4;
+		border: 1px solid limegreen;
+		background-color: transparent;
+		border-radius: 20px;
 		padding: 0.75em;
 		width: 100%;
 		-moz-transition: background-color .25s ease-in-out;
@@ -1594,9 +1595,10 @@ input, select, textarea {
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #222222;
-		color: #ffffff;
+		background-color: orchid;
+		color: black;
 		border: 0;
+		border-radius: 20px;
 		cursor: pointer;
 		outline: 0;
 		padding: 0.7em 1.5em 0.7em 1.5em;
@@ -1607,7 +1609,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #333333;
+			background-color: limegreen;
 		}
 
 		input[type="button"]:active,
