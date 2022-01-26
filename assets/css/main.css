@@ -1446,6 +1446,7 @@ input, select, textarea {
 
 		table.default tbody tr {
 			border-bottom: solid 1px #f4f4f4;
+			border: 1px solid black;
 		}
 
 		table.default td {
@@ -1550,11 +1551,13 @@ input, select, textarea {
 
 	.image {
 		display: inline-block;
+		text-decoration: none;
 	}
 
 		.image img {
 			display: block;
 			width: 100%;
+			border: 1px solid limegreen;
 		}
 
 		.image.fit {
@@ -1596,7 +1599,7 @@ input, select, textarea {
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: orchid;
+		background-color: limegreen;
 		color: black;
 		border: 0;
 		border-radius: 20px;
@@ -1610,7 +1613,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: limegreen;
+			background-color: purple;
+			color: white;
 		}
 
 		input[type="button"]:active,
@@ -2146,7 +2150,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: rgba(255, 255, 255, 0.45);
+		color: black;
 		text-align: center;
 		padding: 2em 0 0 0;
 		font-size: 0.75em;
@@ -2168,6 +2172,7 @@ input, select, textarea {
 		#footer .copyright {
 			list-style: none;
 			padding-left: 0;
+			font-size: 18px;
 		}
 
 			#footer .copyright li {
