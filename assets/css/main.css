@@ -2002,7 +2002,7 @@ input, select, textarea {
 				-moz-align-items: center;
 				-webkit-align-items: center;
 				-ms-align-items: center;
-				align-items: Left;
+				align-items: center;
 			}
 
 				#main > .panel.intro .pic {
