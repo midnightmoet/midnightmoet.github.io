@@ -1,13 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
 
-/*
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2008,7 +2001,7 @@ input, select, textarea {
 
 				#main > .panel.intro .pic {
 					text-decoration: none;
-					border: 1px solid limegreen;
+					border: 1px solid royalblue;
 					position: relative;
 					-moz-flex-grow: 0;
 					-webkit-flex-grow: 0;
@@ -2041,10 +2034,10 @@ input, select, textarea {
 						left: 0;
 						width: 100%;
 						height: 100%;
-						-moz-object-fit: cover;
-						-webkit-object-fit: cover;
-						-ms-object-fit: cover;
-						object-fit: cover;
+						-moz-object-fit: scale-down;
+						-webkit-object-fit: scale-down;
+						-ms-object-fit: scale-down;
+						object-fit: scale-down;
 						-moz-object-position: center;
 						-webkit-object-position: center;
 						-ms-object-position: center;
