@@ -1,193 +1,289 @@
-<!DOCTYPE HTML>
-<!--
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- Wrapper-->
-			<div id="wrapper">
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-				<!-- Nav -->
-					<nav id="nav">
-						<a href="#" class="icon solid fa-home"><span>Home</span></a>
-						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
-						<!-- <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a> -->
-						<a href="https://twitter.com/midnightmoet" class="icon brands fa-twitter"><span>Twitter</span></a>
-						<a href="https://linkedin.com/in/lisachampagne" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
-						<a href="https://github.com/midnightmoet" class="icon brands fa-github"><span>GitHub</span></a>
-					</nav>
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href=""
+    />
 
-				<!-- Main -->
-					<div id="main">
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Lisa Miner | Web Developer</title>
+  </head>
 
-						<!-- Me -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>Lisa L. Miner</h1>
-									<h3><i>Full Stack Software Engineer</i></h3>
-									<p>
-										👋 Hi, I’m Lisa, a Full-Stack Developer passionate about solving real life problems with code. My background is in healthcare <i>(crazy career change, right?)</i>, but my love for Tech and building meaningful life-changing projects overtook me <i>(the heart wants what it wants)</i>.
-										<br>
-										👀 I’m interested in using data for good by building front-end and back-end projects that meet the daily needs of users.
-										<br>
-										❤️ I have a passion for front-end specifically.
-										<br>
-										🌱 I’m currently working on continuous learning. <i>(We know being a coder means being a student for life!)</i>
-										<br>
-										💞️ I’m looking to collaborate on open source projects and open to new job opportunities
-										<br>
-<!-- 										
-										<b>🛠 Tech Stack:</b>
-										Javascript | HTML | CSS | Bootstrap | Node.js | ReactJS | Firebase |  MySQL | MongoDB | GitHub | Postman API | VS Code   -->
-									</p>
-								</header>
-								<a href="#work" class="jumplink pic">
-									<span class="arrow icon solid fa-chevron-right"><span>Checkout my projects</span></span>
-									<img src="./images/profile.jpg" alt="" />
-								</a>
-							</article>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>LISA MINER</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <!-- <li><a href="#contact" class="nav-link">Contact</a></li> -->
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+    
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/stock.jpg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I am a full-stack web developer with a passion for creating
+          beautiful, functional websites. I have a love for learning new technologies.
+        </p>
+      </div>
+    </section>
 
-						<!-- Work -->
-							<article id="work" class="panel">
-								<header>
-									<h2>Projects</h2>
-								</header>
-								<!-- <p>
-								
-								</p> -->
-								<section>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<a 
-												href="https://github.com/midnightmoet/StickyNotes-app" 
-												class="image fit"
-												>
-												Sticky Notes
-												<img 
-													src="./images/freeleaves.jpg" 
-													alt=""
-												>
-											</a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a 
-												href="https://github.com/midnightmoet/Website-Design" 
-												class="image fit"
-												>
-												Basic Website-Design
-												<img 
-													src="./images/freeleaves.jpg" 
-													alt=""
-												>
-											</a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a 
-												href="https://github.com/midnightmoet/Random_Thoughts_Blog_App" 
-												class="image fit"
-												>
-												Random Thoughts Blog App
-												<img 
-													src="./images/freeleaves.jpg" 
-													alt=""
-												>
-											</a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a 
-												href="https://github.com/midnightmoet/Tic-Tac-Toe-React"
-												class="image fit"
-												>
-												Tic Tac Toe
-												<img 
-													src="./images/freeleaves.jpg" 
-													alt=""
-												>
-											</a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a 
-												href="https://github.com/midnightmoet/Pokemon-API-Project" 
-												class="image fit"
-												>
-												Pokemon API
-												<img 
-													src="./images/freeleaves.jpg" 
-													alt=""
-												>
-											</a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a 
-												href="https://github.com/midnightmoet/ToDoList-app" 
-												class="image fit"
-												>
-												To Do List
-												<img 
-													src="./images/freeleaves.jpg" 
-													alt=""
-												>
-											</a>
-										</div>
-									</div>
-								</section>
-							</article>
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        In 2021 I entered and completed a Full Stack Developer course through Kingsland University and successfully received my certification as a Full Stack Developer focused on the MERN stack. I am a developer fueled by my passion for understanding the ins and out of web development. My passion is Front End development as I find myself loving the design process. ReactJS has been quite a game changer. My approach is plain/simple: I don't plan to reinvent the wheel or impress you with over-engineering. I am a quick learner and I love navigating new frameworks/libraries, but I am not a follower of trends for the sake of hypes. My requirements are simple, I expect fair play and transparency. I am a team player and I am always looking for new challenges.
+      </p>
+      <p>
+        I am eager to see where my journey as in web development takes me and am excited to continuously learn things as I go!
+      </p>
+      <p>Reach out and connect with me!</p>
 
-						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<form action="#" method="post">
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
-							</article>
+    </section>
 
-					</div>
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
 
-				<!-- Footer -->
-					<div id="footer">
-						<ul class="copyright">
-							<li>&copy; midnightmoet 2022</li>
-						</ul>
-					</div>
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
 
-			</div>
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <!-- <img
+            src=""
+            alt="project-picture"
+            loading="lazy"
+            class="project-pic"
+          /> -->
+          <h3 class="project-title">Compose, Edit, Repeat</h3>
+          <p class="project-details">
+            This is a React blog designed to showcase React and other design elements. React was used as the main tool for the job, but there is also a full [FE]/[BE]. Express was used for the [BE] along with mongoose/mongoDB for full [BE] functionality. The [FE] simply uses React and "React-router-dom" to accomplish the goals of this project.
+          </p>
+          <a href="https://github.com/midnightmoet/Random_Thoughts_Blog_App" target="_blank" class="project-link">GitHub Repo</a>
+        </div>
+        <div class="project-container project-card">
+          <!-- <img
+            src=""
+            alt="project-picture"
+            loading="lazy"
+            class="project-pic"
+          /> -->
+          <h3 class="project-title">TicTacToe</h3>
+          <p class="project-details">
+            This is a basic game made per the react tutorial docs, start to finish, and it functions properly. Modifications made to the game to make it more eye pleasing.
+          </p>
+          <a href="https://tictactoereactjs2021.netlify.app" target="_blank" class="project-link">Deploy Project</a>
+          <hr>
+          <a href="https://github.com/midnightmoet/Tic-Tac-Toe-React" target="_blank" class="project-link">GitHub Repo</a>
+        </div>
+        <div class="project-container project-card">
+          <!-- <img
+            src=""
+            alt="project-picture"
+            loading="lazy"
+            class="project-pic"
+          /> -->
+          <h3 class="project-title">To-do List</h3>
+          <p class="project-details">
+            Created a to-do list app using React and Redux.  This app has the capability to add, edit and delete tasks. 
+          </p>
+          <a href="https://midnightmoetstodolist.netlify.app/" target="_blank" class="project-link">Deploy Project</a>
+          <hr>
+          <a href="https://github.com/midnightmoet/ToDoList-app" target="_blank" class="project-link">GitHub Repo</a>
+        </div>
+      </div>
+    </section>
 
-	</body>
+    <!-- Contact section -->
+    <!-- <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://www.twitter.com/midnightmoet" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/lisa.miner/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/lisachampagne" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.github.com/midnightmoet" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/midnightmoet" target="_blank"
+          >Lisa Miner (midnightmoet)</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
