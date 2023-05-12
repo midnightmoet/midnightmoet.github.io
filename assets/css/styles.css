@@ -7,7 +7,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
+  --primary-color: slateblue;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -111,10 +111,11 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  padding: 20px;
+  height: 35rem;
+  width: 35rem;
   border-radius: 10%;
-  border: 2px dotted var(--primary-color);
+  /* border: 2px dotted var(--primary-color); */
 }
 
 .bio {
@@ -123,6 +124,11 @@ nav ul li {
   border-radius: 6px;
   background-color: var(--bg-color);
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+.bio-title {
+  text-align: center;
+  margin-bottom: var(--bottom-margin);
 }
 
 .bio h1 {
