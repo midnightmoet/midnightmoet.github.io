@@ -1,4 +1,3 @@
-Developer Portfolio  ( https://midnightmoet.github.io )
 ## Tech Stack
 
 **Client:** HTML, CSS, Vanilla JavaSCript
