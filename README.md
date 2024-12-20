@@ -2,6 +2,10 @@
 
 **Client:** HTML, CSS, Vanilla JavaSCript
 
+## Portfolio Viewing
+
+View this portfolio at [Portfolio](https://midnightmoet.github.io)
+
 ## Tools Used
 
 Below are are list of tools used, and the precise things they were used for:
